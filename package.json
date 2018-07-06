@@ -4,6 +4,7 @@
   "description": "Messing with web component properties with the property helper",
   "main": "index.js",
   "scripts": {
+    "postinstall": "git submodule init && git submodule update",
     "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
